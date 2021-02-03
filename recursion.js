@@ -19,19 +19,3 @@ let quantity = (arr) => {
         return q + quantity(arr)
     }
 }
-
-let multiplyArr = (arr) => {
-    let newArr = []
-
-    if (arr.length === 0) { return newArr }
-    else {
-
-        for (let i = 0; i < arr.length; i++) {
-            newArr.push(arr[i] * arr[arr.length - 1])
-        }
-        arr.pop()
-
-        return multiplyArr(arr)
-    }
-}
-console.log(multiplyArr(my_arr))
