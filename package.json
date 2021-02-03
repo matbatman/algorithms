@@ -1,0 +1,11 @@
+{
+  "name": "algoritms",
+  "version": "1.0.0",
+  "description": "algoritm practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matbatm",
+  "license": "MIT"
+}
